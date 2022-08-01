@@ -37,7 +37,25 @@ const newToy = {
     weight: 5
 }
 
+const transformers = {
+    id: 5,
+    name: "Transformers",
+    manufacturer: "Hasbro",
+    price: 20,
+    weight: 5
+}
+
+const mario = {
+    id: 6,
+    name: "Super Mario",
+    manufacturer: "Nintendo",
+    price: 15,
+    weight: 3
+}
+
 toys.push(newToy)
+toys.push(transformers)
+toys.push(mario)
 
 console.log('\nToys #2\n');
 console.log(toys);
